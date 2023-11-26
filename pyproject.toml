@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "trabalhoapi"
+version = "0.1.0"
+description = ""
+authors = ["Ana Julia G. Peres <126435035+AnaJuliaGPeres@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.104.1"
+uvicorn = "^0.24.0.post1"
+psycopg2-binary = "^2.9.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
